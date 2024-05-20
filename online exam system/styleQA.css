@@ -1,0 +1,118 @@
+.container-3{
+    width:100%;
+    height: auto;
+    background-color: transparent;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+    .box{
+        width: 200%;
+        height: 40px;
+        background-color: rgba(0, 255, 255, 0.078);
+        border-radius: 10%;
+        margin:20px;
+        box-sizing: border-box;
+        text-align: center;
+        
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.234);
+        
+    }
+    .box a{
+        
+        text-decoration: none;
+    }
+     
+        
+     
+     
+
+    .text{
+        padding:10px;
+        
+    }
+
+    .text:hover{
+        background-color: rgba(37, 130, 206, 0.171);
+    }
+
+
+
+    .container-QA{
+        width:60%;
+        height: auto;
+       
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+
+
+       .queAns{
+
+        width: auto;
+        height: auto;
+        background-color: rgba(37, 115, 171, 0.078);
+        margin:20px;
+        box-sizing: border-box;
+        padding:10px;
+       }
+        .Question{
+
+        width: 80%;
+        height: 60px;
+        background-color: rgba(171, 37, 151, 0.078);
+        margin:20px;
+        box-sizing: border-box;
+        padding-top: 15px;
+        padding-left: 10px;
+        }
+
+        .Answers{
+
+        width: 80%;
+        height: 60px;
+        background-color: rgba(171, 37, 151, 0.078);
+        margin:20px;
+        box-sizing: border-box;
+        padding-top: 15px;
+        padding-left: 10px;
+        }
+
+
+
+    label {
+        float: right;
+        margin: 15px 0px;
+       
+        
+    }
+    
+    input {
+        float:left;
+        margin: 5px 0px;
+        width: 200px;
+
+    }
+
+    .addQA{
+
+       width: 300px;
+       border: 15px solid green;
+       padding: 50px;
+       margin: 20px;
+       box-sizing: border-box;
+       
+       display:flex;
+       flex-direction: row;
+       justify-content: space-around;
+       
+    }
+
+   
+
+    
+    

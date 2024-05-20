@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+div.up{
+    margin-top: 30px;
+}
+
+div.middle{
+    display: flex;
+    flex-direction: row;
+}
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    gap: 25;
+    margin-left: 25px;
+
+}
+
+div.card,li{
+    text-decoration: none;
+}

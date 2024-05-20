@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+div.up{
+    margin-top: 30px;
+    margin-left:150px;
+}
+div.up input[type="search"] {
+    margin-left: 90px;
+}
+
+div.middle{
+    display: flex;
+    flex-direction: row;
+}
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    gap: 25;
+    margin-left: 150px;
+
+}
+
+div.card,li{
+    text-decoration: none;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 18px;
+    background-color: #88cbac;
+}
+.box:hover{
+    background-color: #2b7fa4;
+}

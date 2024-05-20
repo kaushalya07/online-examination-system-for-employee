@@ -1,0 +1,47 @@
+.studentbox{
+    width: 400px;
+    height: auto;
+    background-color: rgba(77, 77, 77, 0.529);
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: solid rgb(0, 0, 0);
+    
+    
+    }
+.head_student{
+    width: 400px;
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+.stuent_text{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:white ;
+}
+
+.delete{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: lightcoral;
+    
+}
+
+.delete :hover{
+
+    background-color: red;
+}
+
+.update{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(128, 178, 240);
+    
+}
+
+.update a:hover{
+
+    background-color: blue;
+    text-decoration: none;
+}

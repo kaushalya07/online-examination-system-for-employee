@@ -1,0 +1,22 @@
+        .result-box {
+            align-content: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            display: inline-block;
+            width: 45%; 
+            margin-right: 5%; 
+            vertical-align: top;
+        }
+        
+        .result-box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+        .results-container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }

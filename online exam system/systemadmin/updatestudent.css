@@ -1,0 +1,12 @@
+.container-update{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(66, 144, 213);
+    margin-left: 200px;
+
+}
+.edit-head{
+    width: 400px;
+    height: auto;
+    background-color: antiquewhite;
+}

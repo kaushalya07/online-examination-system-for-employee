@@ -1,0 +1,107 @@
+*{
+    position: relative;
+    margin: 8px;
+    padding: 0;
+    
+
+}
+
+body{
+    background-color: rgb(19, 20, 73) ;
+   
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 60px;
+}
+
+.top{
+    
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.top a{
+    text-align: center;
+    text-decoration: none;
+    color: #cfb6ff;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 18px;
+    background-color: #64469c;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 18px;
+    background-color: #5323ac;
+}
+
+.box:hover{
+    background-color: #d40dca;
+}
+.card{
+    background-color: #f9f9fa7c;
+    
+    margin-top: 50px;
+    width: 890px;
+    height: 460px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    top: 20px;
+}
+
+.file{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.button input {
+    background-color: #1184b9; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    bottom: 10px;
+    top: 15px;
+    
+    
+  }
+
+.button input:hover{
+    color: rgb(218, 218, 218);
+    background-color: #127cad;
+}
